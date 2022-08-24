@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #59CBE8;
+    --secondary-color: #004C54;
+    --tertiary-color: #B94700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    top: 0;
+    background-size: cover;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-weight: lighter;
+    font-size: 1.55vw;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    color: var(--secondary-color)
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero h2 {
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+.about-me {
+    margin: 30px;
+}
+
+.about-me div h3 {
+    justify-content: left;
+}
+
+.fdphoto {
+    width: 200px;
+    height: 200px;
+}
+
+.about-me div p {
+    justify-content: right;
+}
+
+.work div {
+    margin: 30px;
+}
+
+.large-work-box {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color);
+    border-style: solid;
+    size: 20px;
+}
+
+.small-work-box {
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-top: 5px;
+    border-color: var(--secondary-color);
+    border-style: solid;
+}
+
