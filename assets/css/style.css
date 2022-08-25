@@ -181,7 +181,7 @@ main {
 }
 
 #runbuddy-img {
-    background-image: url(/assets/images/runbuddy.png);
+    background-image: url(./assets/images/runbuddy.png);
     background-size: cover;
     background-position: auto;
     opacity: 0.7;
