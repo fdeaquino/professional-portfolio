@@ -151,6 +151,14 @@ main {
 
 }
 
+.project div p {
+    background-color: var(--tertiary-color);
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    
+}
+
 .surf_report {
     min-height: 500px;
     flex-basis: 100%;
@@ -232,61 +240,15 @@ main {
     .profile {
         flex-direction: column;
     }
-   
 
+    .project div p {
+        font-size: 11px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-/* .about-me {
-    margin: 30px;
+    #contact-links a {
+        display: flex;
+        flex-direction: column;
+        font-weight: lighter;
+        border-bottom: none;
+    }
 }
-
-.about-me div h3 {
-    justify-content: left;
-}
-
-.fdphoto {
-    width: 200px;
-    height: 200px;
-}
-
-.about-me div p {
-    justify-content: right;
-}
-
-.work div {
-    margin: 30px;
-}
-
-.large-work-box {
-    text-align: center;
-    background-color: var(--primary-color);
-    border-color: var(--secondary-color);
-    border-style: solid;
-    size: 20px;
-}
-
-.small-work-box {
-    text-align: center;
-    background-color: var(--primary-color);
-    margin-top: 5px;
-    border-color: var(--secondary-color);
-    border-style: solid;
-}
-
-.contact-me {
-    margin: 30px;
-}
-
-.contact-me div {
-    margin-bottom: 30px;
-} */
