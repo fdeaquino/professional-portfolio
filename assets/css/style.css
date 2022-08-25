@@ -154,28 +154,28 @@ main {
 }
 
 #surf-img {
-    background-image: url(/assets/images/surfing.jpeg);
+    background-image: url("../images/surfing.jpeg");
     background-size: cover;
     background-position: 80%;
     opacity: 0.7;
 }
 
 #led-img {
-    background-image: url(/assets/images/led-wall.jpg);
+    background-image: url("/assets/images/led-wall.jpg");
     background-size: cover;
     background-position: 80%;
     opacity: 0.7;
 }
 
 #calculator-img {
-    background-image: url(/assets/images/calculator.jpeg);
+    background-image: url("/assets/images/calculator.jpeg");
     background-size: cover;
     background-position: 100%;
     opacity: 0.7;
 }
 
 #pastel-img {
-    background-image: url(/assets/images/pastel-puzzles.jpeg);
+    background-image: url("/assets/images/pastel-puzzles.jpeg");
     background-size: cover;
     opacity: 0.7;
 }
