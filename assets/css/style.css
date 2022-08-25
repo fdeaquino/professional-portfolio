@@ -32,7 +32,7 @@ header h1 {
     margin: 0;
 }
 
-header a {
+a {
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -60,16 +60,195 @@ header nav ul li a:hover {
 }
 
 .hero {
+    background-image: url('../images/GeometricVector.jpeg');
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    background-position: center;
+    text-align: right;
+    padding: 2%;
+    color: var(--primary-color)
 }
+
 
 .hero h2 {
     margin-top: 80px;
-    margin-right: 50px;
+    margin-right: 20px;
+    background-color: var(--tertiary-color);
 }
 
-.about-me {
+main {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 88%;
+}
+
+.group {
+    display: flex;
+}
+
+.group>h3 {
+    border-right: 3px solid black;
+    flex: 0 0 10%;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.group>div {
+    flex: 0 0 77%;
+}
+
+.profile {
+    display: flex;
+}
+
+#about-me, #work, #contact-me {
+    margin-bottom: 30px;
+}
+
+.profile div {
+    width: 70%;
+    padding: 10px;
+}
+
+.profile div p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#fdphoto {
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;;
+}
+
+#fdphoto:hover {
+    box-shadow: 0 5px 35px 0px rgba(0, 0 , 0, .1);
+}  
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.project {
+    min-height: 200px;
+    max-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding-right: 20px;
+    margin: 5px;
+    border: 3px solid black;
+    flex-basis: calc(50% - 1em);
+
+}
+
+.surf_report {
+    min-height: 500px;
+    flex-basis: 100%;
+}
+
+#surf-img {
+    background-image: url(/assets/images/surfing.jpeg);
+    background-size: cover;
+    background-position: 80%;
+    opacity: 0.7;
+}
+
+#led-img {
+    background-image: url(/assets/images/led-wall.jpg);
+    background-size: cover;
+    background-position: 80%;
+    opacity: 0.7;
+}
+
+#calculator-img {
+    background-image: url(/assets/images/calculator.jpeg);
+    background-size: cover;
+    background-position: 100%;
+    opacity: 0.7;
+}
+
+#pastel-img {
+    background-image: url(/assets/images/pastel-puzzles.jpeg);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#runbuddy-img {
+    background-image: url(/assets/images/runbuddy.png);
+    background-size: cover;
+    background-position: auto;
+    opacity: 0.7;
+}
+
+#surf-img:hover, #led-img:hover, #calculator-img:hover, #pastel-img:hover, #runbuddy-img:hover {
+    opacity: 1;
+}
+
+
+#contact-links {
+    padding-left: 10px;
+    text-align: center;
+}
+
+#contact-links a {
+    margin: 25px;
+    font-size: 18px;
+    border-bottom: 3px solid black;
+}
+
+#contact-links nav {
+    margin-top: 15px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about-me {
     margin: 30px;
 }
 
@@ -106,3 +285,10 @@ header nav ul li a:hover {
     border-style: solid;
 }
 
+.contact-me {
+    margin: 30px;
+}
+
+.contact-me div {
+    margin-bottom: 30px;
+} */

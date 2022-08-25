@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-        <title>Deaquino - Professional Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Deaquino - Professional Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-        <!-- Header, h1, nav, section/hero, footer  -->
+    <!-- Header, h1, nav, section/hero, footer  -->
     <header>
         <h1>
-            <a href="">Deaquino</a>
+            <a href="">Fidel Deaquino</a>
         </h1>
         <nav>
             <ul>
@@ -35,68 +35,90 @@
 
     <section class="hero">
         <!-- move this text to bottom right of hero section container + add image -->
-        <h2>Add Text Here</h2> 
+        <div>
+            <h2>Add Text Here</h2>
+        </div>
+
     </section>
-    
+
     <!-- The following sections belong to one large container -->
-    <section id="main-content">
+    <main>
         <!-- "about me" section -->
-        <section class="about-me">
-            <div>
-                <h3>About Me</h3>
-            </div>
-            <br>
-            <div>
-                <img class="fdphoto" src="/assets/images/fdphoto.jpg">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati fugiat repudiandae cupiditate rerum ab, saepe, doloremque esse vitae molestiae iusto harum ea, quaerat itaque porro sed expedita quos suscipit at?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis unde quasi deserunt a optio aperiam, eaque consectetur enim fuga eveniet saepe dolores ipsa vel quisquam! Ullam voluptatem esse voluptatum.
-                </p>
+        <section id="about-me" class="group">
+
+            <h3>About Me</h3>
+
+            <div class="profile">
+                <img id="fdphoto" src="/assets/images/fdphoto.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati fugiat repudiandae
+                        cupiditate
+                        rerum ab, saepe, doloremque esse vitae molestiae iusto harum ea, quaerat itaque porro sed
+                        expedita
+                        quos suscipit at?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis unde quasi deserunt a
+                        optio aperiam, eaque consectetur enim fuga eveniet saepe dolores ipsa vel quisquam! Ullam
+                        voluptatem
+                        esse voluptatum.
+                    </p>
+                </div>
+
             </div>
         </section>
 
         <!-- work section -->
-        <section class="work">
-            <div>
-                <h3>Work</h3>
-            </div>
-            <div>
-                <div class="large-work-box">
-                    <p>
-                        Surf Report
-                    </p>
-                </div>
-                <div class="small-work-box">
-                    <p>
-                        LED Wall
-                    </p>
-                </div>
-                <div class="small-work-box">
-                    <p>
-                        Calculator
-                    </p>
-                </div>
-                <div class="small-work-box">
-                    <p>
-                        Pastel Puzzles
-                    </p>
-                </div>
-                <div class="small-work-box">
-                    <p>
-                        Run Buddy
-                    </p>
-                </div>
+        <section id="work" class="group">
+
+            <h3>Work</h3>
+
+            <div class="projects">
+                <a href="#" class="project surf_report" id="surf-img">
+                    <div>
+                        <p>
+                            Surf Report
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="project" id="led-img">
+                    <div>
+                        <p>
+                            LED Wall
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="project" id="calculator-img">
+                    <div>
+                        <p>
+                            Calculator
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="project" id="pastel-img">
+                    <div>
+                        <p>
+                            Pastel Puzzles
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="project" id="runbuddy-img">
+                    <div>
+                        <p>
+                            Run Buddy
+                        </p>
+                    </div>
+                </a>
             </div>
         </section>
 
         <!-- contact me section -->
-        <section class="contact-me">
-            <div>
-                <h3>Contact Me</h3>
-            </div>
-            <div>
+        <section id="contact-me" class="group">
+
+            <h3>Contact Me</h3>
+
+            <div id="contact-links">
                 <nav>
                     <a href="tel:832.888.888">832-888-888</a>
                     <a href="mailto://fidel.deaquino@gmail.com">fidel.deaquino@gmail.com</a>
@@ -106,7 +128,7 @@
                 </nav>
             </div>
         </section>
-    </section>
+    </main>
 
     <!-- footer start (DO WE NEED A FOOTER?) -->
 </body>
