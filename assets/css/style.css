@@ -103,6 +103,7 @@ main {
 
 .profile {
     display: flex;
+    padding-left: 20px;
 }
 
 #about-me, #work, #contact-me {
@@ -120,9 +121,11 @@ main {
 }
 
 #fdphoto {
-    width: 200px;
-    height: 200px;
-    padding-left: 10px;;
+    background-image: url("../images/fdphoto.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border: 3px solid black;
 }
 
 #fdphoto:hover {
@@ -161,27 +164,27 @@ main {
 }
 
 #led-img {
-    background-image: url("/assets/images/led-wall.jpg");
+    background-image: url("../images/led-wall.jpg");
     background-size: cover;
     background-position: 80%;
     opacity: 0.7;
 }
 
 #calculator-img {
-    background-image: url("/assets/images/calculator.jpeg");
+    background-image: url("../images/calculator.jpeg");
     background-size: cover;
     background-position: 100%;
     opacity: 0.7;
 }
 
 #pastel-img {
-    background-image: url("/assets/images/pastel-puzzles.jpeg");
+    background-image: url("../images/pastel-puzzles.jpeg");
     background-size: cover;
     opacity: 0.7;
 }
 
 #runbuddy-img {
-    background-image: url("/assets/images/runbuddy.png");
+    background-image: url("../images/runbuddy.png");
     background-size: cover;
     background-position: auto;
     opacity: 0.7;
