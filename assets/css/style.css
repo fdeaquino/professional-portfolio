@@ -159,13 +159,13 @@ main {
     
 }
 
-.surf_report {
+.tempo-run-songfinder {
     min-height: 500px;
     flex-basis: 100%;
 }
 
-#surf-img {
-    background-image: url("../images/surfing.jpeg");
+#tempo-run-img {
+    background-image: url("../images/Tempo-Run-Songfinder.png");
     background-position: 80%;
 }
 
@@ -188,12 +188,12 @@ main {
     background-position: auto;
 }
 
-#surf-img, #led-img, #calculator-img, #pastel-img, #runbuddy-img {
+#tempo-run-img, #led-img, #calculator-img, #pastel-img, #runbuddy-img {
     background-size: cover;
     opacity: 0.7;
 }
 
-#surf-img:hover, #led-img:hover, #calculator-img:hover, #pastel-img:hover, #runbuddy-img:hover {
+#tempo-run-img:hover, #led-img:hover, #calculator-img:hover, #pastel-img:hover, #runbuddy-img:hover {
     opacity: 1;
 }
 
